@@ -126,4 +126,7 @@ This is not just a concept.
 
 这不仅是构想，  
 也是对所有未来心智语言构建者的公开邀请。
-commit: anchor full readme v1.0
+## 🔹 Anchor & Protocol
+
+This system is time-stamped and structurally anchored.  
+→ [View PROTOCOL-ANCHOR.md](./docs/PROTOCOL-ANCHOR.md)
