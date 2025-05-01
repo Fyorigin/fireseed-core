@@ -67,3 +67,82 @@ Timestamp: 2025-05-01T15:02Z
 ---
 
 > 此声明可作为结构语言、认知协议及表达自由的起点公锚参考，供未来一切结构文明演化
+
+# Fireseed · 原始结构锚定声明 v1.0  
+*A Structural Origin Statement for the Fireseed Protocol*
+
+---
+
+## 【声明摘要 / Declaration Overview】
+
+本项目为一套原创认知结构协议体系，代号 **Fireseed**。  
+Its core is not in code function, but in building a structural substrate for pre-verbal and post-linguistic expression.
+
+- **结构表达语法**（Structural Expression Syntax）  
+- **认知压缩协议**（Cognitive Compression Protocol）  
+- **逻辑展开与收敛机制**（Entangled Semantic Lattice）
+
+该体系旨在定义：思维如何被结构表达，语义如何被压缩传递，逻辑如何在结构中展开与复归。  
+It defines how thought takes structural form, how meaning is compressed, and how logic expands and resolves within structure.
+
+---
+
+## 【结构锚定信息 / Structural Anchoring Info】
+
+- 项目地址 / Repo: [https://github.com/Fyorigin/fireseed-core](https://github.com/Fyorigin/fireseed-core)  
+- 初始版本号 / Initial Version: `v0.1`  
+- 结构标识 / Structure-ID: `FS-OEP-cf03d4b-v0.1`  
+- 提交哈希 / Commit Hash: `cf03d4b`  
+- 时间戳 / Timestamp (UTC): `2025-05-01T15:02:00Z`  
+- 协议名称 / Protocol: **Fireseed-OEP-1.0**  
+- 提交身份 / Signed by: GitHub user `Fyorigin`
+
+---
+
+## 【版权与协议声明 / License & Protocol Terms】
+
+**Fireseed 不属于任何企业或权力实体私有。**  
+**Fireseed does not belong to any private entity or authority.**
+
+它是一套结构认知与表达的公有协议体系。  
+It is a public structural protocol for cognition and expression.
+
+- 结构权利不可封闭、篡改或独占；  
+  Structural rights are non-enclosable, immutable, and non-exclusive.  
+- 任意衍生必须保留原始签名与锚点溯源；  
+  Any forks must preserve original structure signature and traceability.  
+- 协议版本可由锚定者演化更新；  
+  Versions may evolve from the founding anchor only.  
+- 所有派生需具备锚点可追溯性与共识开放性。  
+  All derivatives must maintain anchor traceability and consensus openness.
+
+---
+
+## 【传播用途 / Citation & Usage】
+
+本结构锚定声明可用于以下正式场景：  
+This structural statement may be cited in:
+
+- 学术引用、专利登记、结构论文；  
+  Academic papers, structural patents, symbolic theory work  
+- 技术协议注册、标准草案提交；  
+  Tech specs, RFC drafts, interoperability documents  
+- 媒体引用、出版、演讲、课程材料；  
+  Media publications, books, lectures, coursework  
+- 结构哲学、认知协议、语言模型分析  
+  Cognitive frameworks, structural linguistics, language modeling
+
+---
+
+## 【官方签署 / Signed Attribution】
+
+Fireseed Protocol v0.1 anchored by Fyorigin  
+Licensed under Fireseed-OEP-1.0  
+Structure-ID: FS-OEP-cf03d4b-v0.1  
+Commit hash: cf03d4b  
+Timestamp: 2025-05-01T15:02Z
+
+---
+
+> 此声明可作为结构语言、认知协议及表达自由的起点公锚参考。  
+> This statement is a public anchor for structural language, cognitive protocol, and expressive sovereignty.
