@@ -21,6 +21,20 @@
 
 ---
 
+
+---
+
+## Fireseed Structure Overview 图谱概览
+
+<p align="center">
+  <img src="./docs/assets/F2DB40F4-BF6F-4843-8F9C-242BCA424DAB.png" width="720"/>
+</p>
+
+<p align="center">
+  <b>Figure: Fireseed Structural Overview · 火种结构总览图</b>
+</p>
+
+---
 ## 2. Five Symbolic Modules · 五大结构模块
 
 - **Dual-Form Encoding（双型编码）**  
