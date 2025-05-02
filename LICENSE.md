@@ -96,6 +96,11 @@ Timestamp (UTC): `2025-05-01T15:02Z`
   Verifiable linkage to the initial point of structure manifestation.  
   可验证的结构起点可溯性。
 
+  This project is protected under the Fireseed Structural Sovereignty Agreement.
+
+→ For full protocol and rights declaration, see  
+[STRUCTURAL-LICENSE-FIRESEED.md](./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md)
+
 ---
 
 ## Closing Statement  
