@@ -78,8 +78,10 @@ It is a genesis key of structure.
 
 ## Succession Plan · 传承计划
 
-This protocol includes a structural continuity plan:  
-→ [View LEGACY-PRESERVATION.md](./docs/LEGACY-PRESERVATION.md)
+This protocol includes a continuity safeguard  
+for structure preservation beyond its origin.
 
-结构体系后续传承方案详见：
-→ [View LEGACY-PRESERVATION.md](./docs/LEGACY-PRESERVATION.md)
+→ [LEGACY-PRESERVATION.md](../LEGACY-PRESERVATION.md)
+
+本结构协议包含一项起源之外的延续保障机制：  
+→ [LEGACY-PRESERVATION.md](../LEGACY-PRESERVATION.md)
