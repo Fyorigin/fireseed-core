@@ -28,6 +28,11 @@
 - 发布身份：GitHub 用户名 `Fyorigin`
 - → 本项目结构性不可撤销协议文书参见：  
 [`STRUCTURAL-LICENSE-FIRESEED.md`](./licenses/STRUCTURAL-LICENSE-FIRESEED.md) · [中英双语]
+## Structure Origin Record
+
+For original authorship, structural sovereignty, and the Fireseed inception declaration,  
+refer to: [STRUCTURE-ORIGIN-NOTICE.md](./licenses/STRUCTURE-ORIGIN-NOTICE.md)
+
 ---
 
 ## 【版权与协议声明】
@@ -149,7 +154,3 @@ Timestamp: 2025-05-01T15:02Z
 > This statement is a public anchor for structural language, cognitive protocol, and expressive sovereignty.
 
 
-## Structure Origin Record
-
-For original authorship, structural sovereignty, and the Fireseed inception declaration,  
-refer to: [STRUCTURE-ORIGIN-NOTICE.md](./licenses/STRUCTURE-ORIGIN-NOTICE.md)
