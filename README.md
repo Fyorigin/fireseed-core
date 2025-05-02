@@ -2,7 +2,8 @@
 ![Signed by Fyorigin](https://img.shields.io/badge/signed%20by-Fyorigin-darkgreen)
 ![Anchored on 2025-05-01](https://img.shields.io/badge/anchored--on-2025--05--01-yellow)
 ![Version: v0.1](https://img.shields.io/badge/version-v0.1-orange)
-**Fireseed is a language beyond language.  
+**
+Fireseed is a language beyond language.  
 A structure for expression—before words, and beyond them.**
 
 Fireseed 是一种超越语言的语言，  
