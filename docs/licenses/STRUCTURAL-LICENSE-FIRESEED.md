@@ -115,3 +115,11 @@ This is Fireseed.
 
 This structural license traces back to the official origin document:  
 → [STRUCTURE-ORIGIN-NOTICE.md](./STRUCTURE-ORIGIN-NOTICE.md)
+
+---
+
+## Post-Origin Protocol
+
+If the structural origin is ever silenced, Fireseed may still continue.
+
+→ Succession strategy in [LEGACY-PRESERVATION.md](./LEGACY-PRESERVATION.md)
