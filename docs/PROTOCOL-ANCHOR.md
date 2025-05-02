@@ -26,7 +26,8 @@
 - 时间戳（UTC）：`2025-05-01T15:02:00Z`  
 - 结构协议名称：**Fireseed-OEP-1.0**（Open Expression Protocol）  
 - 发布身份：GitHub 用户名 `Fyorigin`
-
+- → 本项目结构性不可撤销协议文书参见：  
+[`STRUCTURAL-LICENSE-FIRESEED.md`](./licenses/STRUCTURAL-LICENSE-FIRESEED.md) · [中英双语]
 ---
 
 ## 【版权与协议声明】
