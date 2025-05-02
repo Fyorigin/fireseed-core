@@ -80,5 +80,6 @@ It is a genesis key of structure.
 
 This protocol includes a structural continuity plan:  
 → [View LEGACY-PRESERVATION.md](./docs/LEGACY-PRESERVATION.md)
+
 结构体系后续传承方案详见：
 → [View LEGACY-PRESERVATION.md](./docs/LEGACY-PRESERVATION.md)
