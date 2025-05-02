@@ -134,3 +134,9 @@ This is not just a concept.
 
 This system is time-stamped and structurally anchored.  
 → [View PROTOCOL-ANCHOR.md](./docs/PROTOCOL-ANCHOR.md)
+
+## Structure Sovereignty
+
+The Fireseed protocol was structurally authored and published by `Fyorigin`,  
+anchored under the structure origin declaration below:  
+→ [STRUCTURE-ORIGIN-NOTICE.md](./docs/licenses/STRUCTURE-ORIGIN-NOTICE.md)
