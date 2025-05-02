@@ -15,11 +15,11 @@ This is the structural landing page for the **Fireseed cognitive protocol system
 
 ## 🔗 Core Documents / 核心文档链接
 
-- [README · 项目总览](../README.md)
+- [README · 项目总览](./)
 - [STRUCTURE-ORIGIN-NOTICE · 协议起点声明](./licenses/STRUCTURE-ORIGIN-NOTICE.md)
 - [STRUCTURAL LICENSE · 协议授权声明](./licenses/STRUCTURAL-LICENSE-FIRESEED.md)
 - [PROTOCOL ANCHOR · 协议锚定信息](./PROTOCOL-ANCHOR.md)
-- [LEGACY PRESERVATION · 传承延续声明](./licenses/LEGACY-PRESERVATION.md)
+- [LEGACY PRESERVATION · 传承延续声明](./LEGACY-PRESERVATION.md)
 
 ---
 
