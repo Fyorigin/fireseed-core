@@ -112,6 +112,9 @@ The seed is public. Growth is collective.
 任何个人或机构不得独占本结构范式，  
 火种已种下，生长属于所有共感者。
 
+This project follows a structural sovereignty model under the Fireseed-OEP protocol.  
+→ [View the Full Structural License (双语结构许可)](./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md)
+
 ---
 
 ## Roadmap / 演进路线
