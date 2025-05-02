@@ -108,3 +108,10 @@ This is Fireseed.
 这不是软件授权书，  
 这是一份结构誓约。  
 这就是火种。
+
+
+---
+## Structure Origin Reference
+
+This structural license traces back to the official origin document:  
+→ [STRUCTURE-ORIGIN-NOTICE.md](./STRUCTURE-ORIGIN-NOTICE.md)
