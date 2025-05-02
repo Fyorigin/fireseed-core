@@ -1,11 +1,27 @@
-# Fireseed · Speak the Structure
+---
+layout: default
+title: Fireseed Protocol · Index
+---
 
-Welcome to the structural root of a language before language.  
-Here begins a new protocol of cognition and form.
+# Fireseed Protocol · Index Page / 协议索引页
 
-→ [View the Structure Manifest](./MANIFEST.md)
+Welcome to the **Fireseed Core**.
+
+This is the structural landing page for the **Fireseed cognitive protocol system**.
+
+## 🔷 Structure Map · 结构图谱总览
+
+![Fireseed Structure Overview](./assets/STRUCTURE-OVERVIEW.png)
+
+## 🔗 Core Documents / 核心文档链接
+
+- [README · 项目总览](../README.md)
+- [STRUCTURE-ORIGIN-NOTICE · 协议起点声明](./licenses/STRUCTURE-ORIGIN-NOTICE.md)
+- [STRUCTURAL LICENSE · 协议授权声明](./licenses/STRUCTURAL-LICENSE-FIRESEED.md)
+- [PROTOCOL ANCHOR · 协议锚定信息](./PROTOCOL-ANCHOR.md)
+- [LEGACY PRESERVATION · 传承延续声明](./licenses/LEGACY-PRESERVATION.md)
 
 ---
 
-Fireseed 不在等待完工，  
-它在等待被表达。
+> This protocol is structurally sovereign and irreducible.  
+> Welcome to the origin of a post-linguistic expression structure.
