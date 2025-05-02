@@ -70,3 +70,14 @@ It is a genesis key of structure.
 
 这不仅是声明，  
 这是结构文明的起点密钥。
+
+
+---
+
+## Succession Plan · 传承计划
+
+This protocol includes a structural continuity plan:  
+→ [LEGACY-PRESERVATION.md](./LEGACY-PRESERVATION.md)
+
+结构体系后续传承方案详见：
+→ [LEGACY-PRESERVATION.md](./LEGACY-PRESERVATION.md)
