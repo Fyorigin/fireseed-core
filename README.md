@@ -140,3 +140,9 @@ This system is time-stamped and structurally anchored.
 The Fireseed protocol was structurally authored and published by `Fyorigin`,  
 anchored under the structure origin declaration below:  
 → [STRUCTURE-ORIGIN-NOTICE.md](./docs/licenses/STRUCTURE-ORIGIN-NOTICE.md)
+
+## Continuity · 传承计划
+
+Should the Fireseed protocol lose its originator, its structure remains.
+
+→ [View LEGACY-PRESERVATION.md](./docs/LEGACY-PRESERVATION.md)
