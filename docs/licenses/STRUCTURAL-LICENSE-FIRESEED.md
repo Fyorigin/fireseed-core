@@ -118,8 +118,18 @@ This structural license traces back to the official origin document:
 
 ---
 
-## Post-Origin Protocol
+---
 
-If the structural origin is ever silenced, Fireseed may still continue.
+## Post-Origin Clause / 起源终止后的延续条款
 
-→ Succession strategy in [LEGACY-PRESERVATION.md](./LEGACY-PRESERVATION.md)
+Should the originator be silenced, disappeared,  
+or rendered unable to express—Fireseed shall remain.
+
+→ See full succession and preservation terms:  
+[LEGACY-PRESERVATION.md](../LEGACY-PRESERVATION.md)
+
+若创始者因任何原因沉寂、消失或失能，  
+Fireseed 仍将以结构方式延续存在。
+
+→ 查看完整的结构传承与延续守则：  
+[LEGACY-PRESERVATION.md](../LEGACY-PRESERVATION.md)
