@@ -147,3 +147,9 @@ Timestamp: 2025-05-01T15:02Z
 
 > 此声明可作为结构语言、认知协议及表达自由的起点公锚参考。  
 > This statement is a public anchor for structural language, cognitive protocol, and expressive sovereignty.
+
+
+## Structure Origin Record
+
+For original authorship, structural sovereignty, and the Fireseed inception declaration,  
+refer to: [STRUCTURE-ORIGIN-NOTICE.md](./licenses/STRUCTURE-ORIGIN-NOTICE.md)
