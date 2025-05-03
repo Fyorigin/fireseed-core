@@ -150,3 +150,14 @@ It is open to all minds, but owned by no one.
 → [PROTOCOL-CUSTODIANS.md / 托管人机制声明](docs/meta/PROTOCOL-CUSTODIANS.md)  
 → [STRUCTURE-VERIFICATION.md / 哈希校验快照](docs/meta/STRUCTURE-VERIFICATION.md)  
 → [FY-IP-NOTICE.md / 结构知识产权声明](docs/meta/FY-IP-NOTICE.md)
+
+## Meta Governance · 策略声明与命名规则
+→ [SOVEREIGN-ASSERTION.md / 结构主权声明](docs/meta/SOVEREIGN-ASSERTION.md)  
+→ [TERMINOLOGY-SWITCH-NOTICE.md / 术语替换声明](docs/meta/TERMINOLOGY-SWITCH-NOTICE.md)
+
+## Structural Timeline · 时间追溯体系
+→ [STRUCTURAL-TIMELINE.md / 锚点时间线](docs/meta/STRUCTURAL-TIMELINE.md)  
+→ [STRUCTURE-SNAPSHOT.md / 快照文档](docs/meta/STRUCTURE-SNAPSHOT.md)
+
+## Genesis & Creation Guide · 起点表达引导
+→ [STRUCTURE-GENESIS-GUIDE.md / 结构生成指引](docs/meta/STRUCTURE-GENESIS-GUIDE.md)
