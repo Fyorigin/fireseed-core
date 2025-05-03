@@ -113,3 +113,15 @@ No one may alter or reinterpret the system—even in its quietest state.
 在任何沉寂状态中，结构不可改、不可释、不可篡。
 
 → [PROTOCOL-CUSTODIANS.md / 协议托管机制文件](docs/meta/PROTOCOL-CUSTODIANS.md)
+
+---
+
+### Structural Integrity / 结构完整性验证
+
+All key documents in the Clearwell structure are cryptographically signed  
+and hash-verifiable for public traceability and tamper-resistance.
+
+清泉体系中的所有关键文档均具备哈希签名，  
+可公开校验、可溯源、不可伪造。
+
+→ [STRUCTURE-VERIFICATION.md / 哈希签名校验表](docs/meta/STRUCTURE-VERIFICATION.md)
