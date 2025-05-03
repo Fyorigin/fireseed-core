@@ -144,8 +144,8 @@ It is open to all minds, but owned by no one.
 
 ## Structural Declarations · Clearwell 核心锚定文档
 
-→ [STRUCTURE-ORIGIN-NOTICE.md / 起源声明](docs/meta/STRUCTURE-ORIGIN-NOTICE.md)  
-→ [STRUCTURAL-LICENSE-FIRESEED.md / 协议主权声明](docs/meta/STRUCTURAL-LICENSE-FIRESEED.md)  
+→ [STRUCTURE-ORIGIN-NOTICE.md / 起源声明](docs/licenses/STRUCTURE-ORIGIN-NOTICE.md)  
+→ [STRUCTURAL-LICENSE-FIRESEED.md / 协议主权声明](docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md)  
 → [PROTOCOL-ANCHOR.md / 协议锚定记录](docs/PROTOCOL-ANCHOR.md)  
 → [PROTOCOL-CUSTODIANS.md / 托管人机制声明](docs/meta/PROTOCOL-CUSTODIANS.md)  
 → [STRUCTURE-VERIFICATION.md / 哈希校验快照](docs/meta/STRUCTURE-VERIFICATION.md)  
