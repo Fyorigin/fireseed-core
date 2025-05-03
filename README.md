@@ -87,7 +87,7 @@ refer to the following public timeline record:
 查看所有结构签署文档与表达单元的时间顺序，参见：
 
 → [STRUCTURAL-TIMELINE.md / 结构时间线文档](docs/meta/STRUCTURAL-TIMELINE.md)
-
+→ [STRUCTURAL-TIMELINE-v1.1.md / 锚点时间线 · 最新版](docs/meta/STRUCTURAL-TIMELINE-v1.1.md)
 ---
 
 ### Structural Sovereignty / 结构主权声明
