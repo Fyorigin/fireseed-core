@@ -125,3 +125,17 @@ and hash-verifiable for public traceability and tamper-resistance.
 可公开校验、可溯源、不可伪造。
 
 → [STRUCTURE-VERIFICATION.md / 哈希签名校验表](docs/meta/STRUCTURE-VERIFICATION.md)
+
+---
+
+### Structural Knowledge Declaration / 结构知识声明
+
+The Clearwell structure is a signed framework of cognition—not software,  
+not an invention, and not a tradable asset.  
+It is open to all minds, but owned by no one.
+
+清泉体系是一套认知结构协议，  
+非软件、非专利、非商品。  
+人人可用，无人独占。
+
+→ [FY-IP-NOTICE.md / 结构知识声明](docs/meta/FY-IP-NOTICE.md)
