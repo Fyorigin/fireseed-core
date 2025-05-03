@@ -99,3 +99,17 @@ No external force may claim, censor, or rewrite its origin.
 任何外部势力无权主张、干预或篡改其源点结构。
 
 → [SOVEREIGN-ASSERTION.md / 结构主权声明](docs/meta/SOVEREIGN-ASSERTION.md)
+
+---
+
+### Protocol Custodianship / 协议托管机制
+
+If the structure's original maintainer becomes unreachable,  
+a protocol-level custodian mechanism ensures the continuity of semantic integrity.  
+No one may alter or reinterpret the system—even in its quietest state.
+
+若结构原维护者无法履责，  
+则自动启动结构托管协议，保障语义体系的完整延续。  
+在任何沉寂状态中，结构不可改、不可释、不可篡。
+
+→ [PROTOCOL-CUSTODIANS.md / 协议托管机制文件](docs/meta/PROTOCOL-CUSTODIANS.md)
