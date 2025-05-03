@@ -77,6 +77,7 @@ you may refer to the formal snapshot record below.
 
 → [STRUCTURE-SNAPSHOT.md / 结构快照文档](docs/meta/STRUCTURE-SNAPSHOT.md)
 
+→ [STRUCTURE-SNAPSHOT-v1.1.md / 快照签名清单 · 最新版](docs/meta/STRUCTURE-SNAPSHOT-v1.1.md)
 ---
 
 ### Structural Timeline / 结构时间线
