@@ -65,3 +65,14 @@ this repository adopts a formal terminology update policy from version v1.1 onwa
 为保证结构表达的公开性、科学性与中立性，本项目自 v1.1 起正式执行术语替换策略。
 
 → [View Terminology Switch Notice / 查看术语替换声明](docs/meta/TERMINOLOGY-SWITCH-NOTICE.md)
+
+---
+
+### Structural Snapshot / 结构快照状态
+
+For a complete summary of the current project structure,  
+you may refer to the formal snapshot record below.
+
+查看当前结构体系的阶段性总览，参见下列结构快照文件：
+
+→ [STRUCTURE-SNAPSHOT.md / 结构快照文档](docs/meta/STRUCTURE-SNAPSHOT.md)
