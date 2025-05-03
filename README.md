@@ -54,3 +54,14 @@ Any use must retain origin traceability.
 
 → View Full Structural Summary (结构锚点总览)
 [docs/meta/STRUCTURE-SUMMARY.md](./docs/meta/STRUCTURE-SUMMARY.md)
+
+---
+
+### Terminology Notice / 术语声明
+
+To ensure structural expression remains public, scientific, and free of implicit metaphors or emotional coloration,  
+this repository adopts a formal terminology update policy from version v1.1 onward.
+
+为保证结构表达的公开性、科学性与中立性，本项目自 v1.1 起正式执行术语替换策略。
+
+→ [View Terminology Switch Notice / 查看术语替换声明](docs/meta/TERMINOLOGY-SWITCH-NOTICE.md)
