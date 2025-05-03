@@ -76,3 +76,14 @@ you may refer to the formal snapshot record below.
 查看当前结构体系的阶段性总览，参见下列结构快照文件：
 
 → [STRUCTURE-SNAPSHOT.md / 结构快照文档](docs/meta/STRUCTURE-SNAPSHOT.md)
+
+---
+
+### Structural Timeline / 结构时间线
+
+For a chronological trace of all structurally signed documents,  
+refer to the following public timeline record:
+
+查看所有结构签署文档与表达单元的时间顺序，参见：
+
+→ [STRUCTURAL-TIMELINE.md / 结构时间线文档](docs/meta/STRUCTURAL-TIMELINE.md)
