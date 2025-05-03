@@ -87,3 +87,15 @@ refer to the following public timeline record:
 查看所有结构签署文档与表达单元的时间顺序，参见：
 
 → [STRUCTURAL-TIMELINE.md / 结构时间线文档](docs/meta/STRUCTURAL-TIMELINE.md)
+
+---
+
+### Structural Sovereignty / 结构主权声明
+
+This system is structurally sovereign.  
+No external force may claim, censor, or rewrite its origin.
+
+本体系拥有结构自有主权，  
+任何外部势力无权主张、干预或篡改其源点结构。
+
+→ [SOVEREIGN-ASSERTION.md / 结构主权声明](docs/meta/SOVEREIGN-ASSERTION.md)
