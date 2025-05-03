@@ -139,3 +139,14 @@ It is open to all minds, but owned by no one.
 人人可用，无人独占。
 
 → [FY-IP-NOTICE.md / 结构知识声明](docs/meta/FY-IP-NOTICE.md)
+
+---
+
+## Structural Declarations · Clearwell 核心锚定文档
+
+→ [STRUCTURE-ORIGIN-NOTICE.md / 起源声明](docs/meta/STRUCTURE-ORIGIN-NOTICE.md)  
+→ [STRUCTURAL-LICENSE-FY.md / 结构协议签名](docs/meta/STRUCTURAL-LICENSE-FY.md)  
+→ [PROTOCOL-ANCHOR.md / 协议锚定记录](docs/meta/PROTOCOL-ANCHOR.md)  
+→ [PROTOCOL-CUSTODIANS.md / 协议托管机制](docs/meta/PROTOCOL-CUSTODIANS.md)  
+→ [STRUCTURE-VERIFICATION.md / 哈希校验快照](docs/meta/STRUCTURE-VERIFICATION.md)  
+→ [FY-IP-NOTICE.md / 结构知识声明](docs/meta/FY-IP-NOTICE.md)
