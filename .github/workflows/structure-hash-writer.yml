@@ -38,7 +38,6 @@ jobs:
 
             case "$ext" in
               md|txt|yml|yaml|html|xml)
-                # Insert hash if not already embedded
                 if ! grep -q "$hash" "$file"; then
                   comment=""
                   case "$ext" in
@@ -69,11 +68,12 @@ jobs:
         run: |
           git config user.name "structure-bot"
           git config user.email "structure-bot@users.noreply.github.com"
+          git fetch origin
+          git reset --hard origin/main
           git add .
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Auto-embed structure hashes and update manifest"
-            git pull --rebase
             git push
           fi
