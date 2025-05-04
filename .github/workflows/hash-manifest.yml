@@ -21,13 +21,13 @@ jobs:
         run: |
           echo "{" > hash_manifest.json
           first=1
-          while IFS= read -r -d '' file; do
+          find . -type f ! -path "./.git/*" ! -path "./.github/*" ! -name "hash_manifest.json" | while read file; do
             hash=$(sha256sum "$file" | awk '{print $1}')
             timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
             if [ $first -eq 0 ]; then echo "," >> hash_manifest.json; fi
             echo "  \"${file}\": {\"sha256\": \"${hash}\", \"timestamp\": \"${timestamp}\"}" >> hash_manifest.json
             first=0
-          done < <(find . -type f ! -path "./.git/*" ! -path "./.github/*" ! -name "hash_manifest.json" -print0)
+          done
           echo "" >> hash_manifest.json
           echo "}" >> hash_manifest.json
 
@@ -43,3 +43,4 @@ jobs:
           else
             git commit -m "Update hash_manifest.json with hashes and timestamps"
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          fi
