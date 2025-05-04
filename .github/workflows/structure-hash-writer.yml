@@ -17,20 +17,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set upload author and timestamp
+      - name: Prepare time and author
         run: |
           echo "UPLOADER=Fyorigin" >> $GITHUB_ENV
-          echo "NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")" >> $GITHUB_ENV
+          echo "NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_ENV
+          echo "STAMP=$(date -u +%Y%m%dT%H%M%S)" >> $GITHUB_ENV
 
-      - name: Preserve previous manifest if exists
+      - name: Backup previous manifest
         run: |
+          mkdir -p snapshots
           if [ -f hash_manifest.json ]; then
+            cp hash_manifest.json "snapshots/hash_manifest-$STAMP.json"
             cp hash_manifest.json hash_manifest_prev.json
           else
             echo "{}" > hash_manifest_prev.json
           fi
 
-      - name: Embed hashes and update manifest incrementally
+      - name: Generate incremental manifest and embed hashes
         run: |
           echo "{" > hash_manifest.json
           echo "# Hash Diff Report - Generated $NOW" > hash_diff_report.md
@@ -42,6 +45,7 @@ jobs:
           find . -type f \
             ! -path "./.git/*" \
             ! -path "./.github/*" \
+            ! -path "./snapshots/*" \
             ! -name "hash_manifest.json" \
             ! -name "hash_manifest_prev.json" | while read file; do
 
@@ -49,10 +53,11 @@ jobs:
             ext="${file##*.}"
             embed=false
 
-            old_record=$(jq -r --arg f "$file" '.[$f]' hash_manifest_prev.json)
-            old_hash=$(echo "$old_record" | jq -r '.sha256 // empty')
-            old_time=$(echo "$old_record" | jq -r '.timestamp // empty')
-            old_embed=$(echo "$old_record" | jq -r '.embedded // false')
+            # 获取旧记录
+            old_entry=$(jq -r --arg f "$file" '.[$f]' hash_manifest_prev.json)
+            old_hash=$(echo "$old_entry" | jq -r '.sha256 // empty')
+            old_time=$(echo "$old_entry" | jq -r '.timestamp // empty')
+            old_embed=$(echo "$old_entry" | jq -r '.embedded // false')
 
             if [ "$hash" = "$old_hash" ] && [ "$old_time" != "" ]; then
               timestamp=$old_time
@@ -60,7 +65,7 @@ jobs:
               status="Unchanged"
             else
               timestamp=$NOW
-              status="Modified"
+              status=$([ "$old_hash" = "" ] && echo "New" || echo "Modified")
 
               case "$ext" in
                 md|txt|yml|yaml|html|xml)
@@ -88,7 +93,7 @@ jobs:
           echo "" >> hash_manifest.json
           echo "}" >> hash_manifest.json
 
-      - name: Commit and push hash updates
+      - name: Commit and push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -96,11 +101,12 @@ jobs:
           git config user.email "structure-bot@users.noreply.github.com"
           git fetch origin
           git reset --hard origin/main
-          git add hash_manifest.json hash_diff_report.md || true
+          git add hash_manifest.json hash_diff_report.md
+          git add snapshots/hash_manifest-*.json || true
           git add *.md *.txt *.yml *.yaml *.html *.xml || true
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
-            git commit -m "Incremental hash manifest update"
+            git commit -m "Incremental structural hash manifest update at $NOW"
             git push
           fi
