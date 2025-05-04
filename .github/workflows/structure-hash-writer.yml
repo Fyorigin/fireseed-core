@@ -4,9 +4,7 @@ on:
   push:
     paths-ignore:
       - 'hash_manifest.json'
-  pull_request:
-    paths-ignore:
-      - 'hash_manifest.json'
+      - 'hash_manifest_prev.json'
   workflow_dispatch:
 
 jobs:
@@ -17,96 +15,54 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Prepare time and author
+      - name: Set author and timestamp
         run: |
           echo "UPLOADER=Fyorigin" >> $GITHUB_ENV
-          echo "NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_ENV
-          echo "STAMP=$(date -u +%Y%m%dT%H%M%S)" >> $GITHUB_ENV
+          echo "TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")" >> $GITHUB_ENV
 
-      - name: Backup previous manifest
+      - name: Load existing manifest if exists
         run: |
-          mkdir -p snapshots
           if [ -f hash_manifest.json ]; then
-            cp hash_manifest.json "snapshots/hash_manifest-$STAMP.json"
             cp hash_manifest.json hash_manifest_prev.json
           else
             echo "{}" > hash_manifest_prev.json
           fi
 
-      - name: Generate incremental manifest and embed hashes
+      - name: Generate updated manifest incrementally
         run: |
-          echo "{" > hash_manifest.json
-          echo "# Hash Diff Report - Generated $NOW" > hash_diff_report.md
-          echo "" >> hash_diff_report.md
-          echo "| File | Status | Old Hash | New Hash |" >> hash_diff_report.md
-          echo "|------|--------|----------|----------|" >> hash_diff_report.md
-
-          first=1
+          jq '.' hash_manifest_prev.json > hash_manifest_new.json
           find . -type f \
             ! -path "./.git/*" \
             ! -path "./.github/*" \
-            ! -path "./snapshots/*" \
             ! -name "hash_manifest.json" \
-            ! -name "hash_manifest_prev.json" | while read file; do
+            ! -name "hash_manifest_prev.json" \
+            | while read file; do
+              hash=$(sha256sum "$file" | awk '{print $1}')
+              old_hash=$(jq -r --arg f "$file" '.[$f].sha256 // empty' hash_manifest_prev.json)
+              if [ "$hash" != "$old_hash" ]; then
+                echo "Updating $file"
+                jq --arg f "$file" --arg h "$hash" --arg t "$TIMESTAMP" \
+                   '. + {($f): {"sha256": $h, "timestamp": $t}}' \
+                   hash_manifest_new.json > temp.json && mv temp.json hash_manifest_new.json
+                if [[ "$file" == *.md ]]; then
+                  echo "" >> "$file"
+                  echo "<!-- STRUCTURE-ID: sha256:$hash uploaded_by: $UPLOADER at $TIMESTAMP -->" >> "$file"
+                fi
+              fi
+            done
+          mv hash_manifest_new.json hash_manifest.json
 
-            hash=$(sha256sum "$file" | awk '{print $1}')
-            ext="${file##*.}"
-            embed=false
-
-            # 获取旧记录
-            old_entry=$(jq -r --arg f "$file" '.[$f]' hash_manifest_prev.json)
-            old_hash=$(echo "$old_entry" | jq -r '.sha256 // empty')
-            old_time=$(echo "$old_entry" | jq -r '.timestamp // empty')
-            old_embed=$(echo "$old_entry" | jq -r '.embedded // false')
-
-            if [ "$hash" = "$old_hash" ] && [ "$old_time" != "" ]; then
-              timestamp=$old_time
-              embed=$old_embed
-              status="Unchanged"
-            else
-              timestamp=$NOW
-              status=$([ "$old_hash" = "" ] && echo "New" || echo "Modified")
-
-              case "$ext" in
-                md|txt|yml|yaml|html|xml)
-                  if ! grep -q "$hash" "$file"; then
-                    comment=""
-                    case "$ext" in
-                      md|html) comment="<!-- STRUCTURE-ID: sha256:$hash uploaded_by: $UPLOADER at $NOW -->" ;;
-                      yml|yaml|txt) comment="# STRUCTURE-ID: sha256:$hash uploaded_by: $UPLOADER at $NOW" ;;
-                      xml) comment="<!-- STRUCTURE-ID: sha256:$hash uploaded_by: $UPLOADER at $NOW -->" ;;
-                    esac
-                    echo "$comment" >> "$file"
-                  fi
-                  embed=true
-                  ;;
-              esac
-
-              echo "| $file | $status | $old_hash | $hash |" >> hash_diff_report.md
-            fi
-
-            if [ $first -eq 0 ]; then echo "," >> hash_manifest.json; fi
-            echo "  \"$file\": {\"sha256\": \"$hash\", \"timestamp\": \"$timestamp\", \"embedded\": $embed, \"uploader\": \"$UPLOADER\"}" >> hash_manifest.json
-            first=0
-          done
-
-          echo "" >> hash_manifest.json
-          echo "}" >> hash_manifest.json
-
-      - name: Commit and push
+      - name: Commit and push updates
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "structure-bot"
           git config user.email "structure-bot@users.noreply.github.com"
-          git fetch origin
-          git reset --hard origin/main
-          git add hash_manifest.json hash_diff_report.md
-          git add snapshots/hash_manifest-*.json || true
-          git add *.md *.txt *.yml *.yaml *.html *.xml || true
+          git add .
           if git diff --cached --quiet; then
-            echo "No changes"
+            echo "No changes to commit"
           else
-            git commit -m "Incremental structural hash manifest update at $NOW"
+            git commit -m "Update hash manifest incrementally and embed structure tags"
+            git pull --rebase
             git push
           fi
