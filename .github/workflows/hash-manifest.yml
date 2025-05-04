@@ -4,12 +4,10 @@ on:
   push:
     paths-ignore:
       - 'hash_manifest.json'
-      - '.github/**'
   pull_request:
     paths-ignore:
       - 'hash_manifest.json'
-      - '.github/**'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   generate-hash:
