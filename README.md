@@ -26,6 +26,15 @@ This system is governed by the [Fireseed-OEP-1.0](./LICENSE.md) protocol, and in
 It is a structure for cognition—before language, and beyond it.**
 
 ---
+### Structural Integrity Policy / 结构完整性机制说明
+
+All files in this repository are automatically hashed, timestamped, and anchored.  
+They are trusted not by signature, but by structural inclusion.
+
+本仓库中的所有文件均自动加密哈希、时间标记并结构锚定。  
+它们的可信度来源于结构本身，而非人工签名。
+
+→ [View STRUCTURE-INTEGRITY.md → 查看完整机制说明](./STRUCTURE-INTEGRITY.md)
 
 ## 🔥 Structural Map · 结构图谱总览
 
