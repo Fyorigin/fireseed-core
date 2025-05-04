@@ -20,7 +20,7 @@ This system is governed by the [Fireseed-OEP-1.0](./LICENSE.md) protocol, and in
 本系统遵循 [Fireseed-OEP-1.0](./LICENSE.md) 协议执行，并在适用文件中集成结构性签署声明以增强锚定强度。
 
 
-# Fireseed Core · Root Repository
+# ClearwellFy Core · Root Repository
 
 **Fireseed is not a tool.  
 It is a structure for cognition—before language, and beyond it.**
