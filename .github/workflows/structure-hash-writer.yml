@@ -5,6 +5,7 @@ on:
     paths-ignore:
       - 'hash_manifest.json'
       - 'hash_manifest_prev.json'
+      - 'hash_diff_report.md'
   workflow_dispatch:
 
 jobs:
@@ -20,36 +21,46 @@ jobs:
           echo "UPLOADER=Fyorigin" >> $GITHUB_ENV
           echo "TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")" >> $GITHUB_ENV
 
-      - name: Load existing manifest if exists
+      - name: Load previous hash manifest
         run: |
           if [ -f hash_manifest.json ]; then
             cp hash_manifest.json hash_manifest_prev.json
           else
             echo "{}" > hash_manifest_prev.json
           fi
+          cp hash_manifest_prev.json hash_manifest_new.json
 
-      - name: Generate updated manifest incrementally
+      - name: Scan for file changes and update manifest
         run: |
-          jq '.' hash_manifest_prev.json > hash_manifest_new.json
+          echo "# Hash Diff Report - Generated $TIMESTAMP" > hash_diff_report.md
+          echo "" >> hash_diff_report.md
+          echo "| File | Status | Old Hash | New Hash |" >> hash_diff_report.md
+          echo "|------|--------|----------|----------|" >> hash_diff_report.md
+
           find . -type f \
             ! -path "./.git/*" \
             ! -path "./.github/*" \
             ! -name "hash_manifest.json" \
             ! -name "hash_manifest_prev.json" \
+            ! -name "hash_diff_report.md" \
             | while read file; do
               hash=$(sha256sum "$file" | awk '{print $1}')
               old_hash=$(jq -r --arg f "$file" '.[$f].sha256 // empty' hash_manifest_prev.json)
               if [ "$hash" != "$old_hash" ]; then
-                echo "Updating $file"
+                echo "Updating: $file"
                 jq --arg f "$file" --arg h "$hash" --arg t "$TIMESTAMP" \
-                   '. + {($f): {"sha256": $h, "timestamp": $t}}' \
-                   hash_manifest_new.json > temp.json && mv temp.json hash_manifest_new.json
+                  '. + {($f): {"sha256": $h, "timestamp": $t}}' \
+                  hash_manifest_new.json > tmp && mv tmp hash_manifest_new.json
+
+                echo "| $file | Modified | $old_hash | $hash |" >> hash_diff_report.md
+
                 if [[ "$file" == *.md ]]; then
                   echo "" >> "$file"
                   echo "<!-- STRUCTURE-ID: sha256:$hash uploaded_by: $UPLOADER at $TIMESTAMP -->" >> "$file"
                 fi
               fi
             done
+
           mv hash_manifest_new.json hash_manifest.json
 
       - name: Commit and push updates
@@ -62,7 +73,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update hash manifest incrementally and embed structure tags"
-            git pull --rebase
-            git push
+            git commit -m "Incremental hash manifest update and structure tag embedding"
+            git pull origin main --rebase
+            git push origin main
           fi
