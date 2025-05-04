@@ -1,55 +1,32 @@
-| File | Detected Hash | In Manifest |
-|------|----------------|-------------|
-| ./LICENSE.md | `cf03d4b` | false |
-| ./docs/LICENSE.md | `cf03d4b` | false |
-| ./docs/MANIFEST.md | `cf03d4b` | false |
-| ./docs/PROTOCOL-ANCHOR.md | `cf03d4b` | false |
-| ./docs/LEGACY-PRESERVATION.md | `cf03d4b` | false |
-| ./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md | `ce8552bff53e70b2e51a513ad8a37cf33f0e05ad56705c8edde842e727d29b7c` | false |
-| ./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md | `cf03d4b` | false |
-| ./docs/licenses/STRUCTURE-ORIGIN-NOTICE.md | `00406ca04acf0303c4f4d6ee2cb113afbbae202f226f3fbab50b338a56183492` | false |
-| ./docs/licenses/STRUCTURE-ORIGIN-NOTICE.md | `cf03d4b` | false |
-| ./docs/meta/STRUCTURAL-TIMELINE-v1.1.md | `f48117bfaff336dbbd3eecc3cf697a469e22ca20baedc3065c3831a67bd45275` | false |
-| ./docs/meta/STRUCTURE-VERIFICATION.md | `48b357e12d0e7d3b1e75d9fa45c118e9e1e2d6019c8e67cbfe22f1459b106113` | false |
-| ./docs/meta/STRUCTURE-VERIFICATION.md | `49f3d0fb7ddd1a483207ccd7cfa5580c90b08739eeefe4c6e3e8e4b172628b5c` | false |
-| ./docs/meta/STRUCTURE-VERIFICATION.md | `4f6466fc3c153b3a35f8ee92e9332931c3f7d01916ceaf7b79b812383f88cfcf` | false |
-| ./docs/meta/STRUCTURE-VERIFICATION.md | `88288b1ed20e8570a4b1c8f4dc50370e4a5cf3db01071a62d02704bb91a2a75c` | false |
-| ./docs/meta/STRUCTURE-VERIFICATION.md | `8d4d83f4810e02862d4cb20c769f893f47e5ef9e30809e1102ec7e3d9dcf87e9` | false |
-| ./docs/meta/STRUCTURE-VERIFICATION.md | `9e9a47f60ea04ebdcb25f92eaf4572aeaf75b0410734b369299d0ee6044f3d4c` | false |
-| ./docs/meta/STRUCTURE-VERIFICATION.md | `e7dd58cc3e55fffc66fd97c2225c6fdbbc55e9791e4ecde2ae84aa54dd934038` | false |
-| ./docs/meta/STRUCTURE-VERIFICATION.md | `f27b63c24a9a3ed92917e0d44b43b5a927e3b119e9e83139873e61b2d5c35469` | false |
-| ./docs/meta/STRUCTURE-VERIFICATION.md | `f3b65f4d110edce3c362040fd9439f70e1ae216bf6a6e84a6895d5c257b0672e` | false |
-| ./docs/meta/STRUCTURE-VERIFICATION.md | `f88ea7a796f98a70c77a83618c16dffbfc9c38cf8b4656a4409db8b7b69e7c10` | false |
-| ./docs/meta/STRUCTURE-SUMMARY.md | `cf03d4b` | false |
-| ./docs/meta/STRUCTURE-SNAPSHOT.md | `cf03d4b` | false |
-| ./docs/meta/STRUCTURE-SNAPSHOT-v1.1.md | `215bb1a80e415da3dea6f576c234422547d0a69787cfd02aed9b491292dbbd63` | false |
-| ./docs/meta/STRUCTURE-SNAPSHOT-v1.1.md | `289f2ea5f324270597867e3dcab5cfd7db558bff657979d4625132d027d18d8b` | true |
-| ./docs/meta/STRUCTURAL-TIMELINE.md | `cd91f4b8` | false |
-| ./docs/meta/STRUCTURAL-TIMELINE.md | `cf03d4b` | false |
-| ./docs/meta/STRUCTURAL-TIMELINE.md | `f88ea7a7` | false |
-| ./docs/meta/PROTOCOL-CUSTODIANS.md | `49f3d0fb7ddd1a483207ccd7cfa5580c90b08739eeefe4c6e3e8e4b172628b5c` | false |
-| ./docs/meta/PROTOCOL-CUSTODIANS.md | `cf03d4b` | false |
-| ./docs/meta/TERMINOLOGY-SWITCH-NOTICE.md | `cd91f4b8` | false |
-| ./docs/meta/SOVEREIGN-ASSERTION.md | `aa904c9186a7f8195ac82256cebb96901b42efe707c11de19db3d5d4211e4448` | false |
-| ./docs/meta/SOVEREIGN-ASSERTION.md | `cf03d4b` | false |
-| ./docs/meta/FY-IP-NOTICE.md | `50bfabbccedcecf382d32b17027401fb4f007b150e0e3543fae558df77b1f8c8` | false |
-| ./docs/meta/FY-IP-NOTICE.md | `cf03d4b` | false |
-| ./docs/nodes/SEED-0000.md | `cf03d4b` | false |
-| ./docs/nodes/SEED-0000.md | `d39e1533a2d81a22400de1716aea92670c83fb0cf2b2a669f35e9a932851dfd2` | false |
-| ./docs/nodes/SEED-00001.md | `c7e2bcda1ccfd110002581b891b6dc28727eb3f12eaf66466463c1ac93f1eb96` | false |
-| ./docs/nodes/SEED-00001.md | `cf03d4b` | false |
-| ./docs/STRUCTURE-GUIDE.md | `cf03d4b` | false |
-| ./docs/README.md | `cf03d4b` | false |
-| ./README.md | `1f0b18c134a91dbd145195cb9424b6f2a0aed8f3689f6e4b9632b04dcfb2fe79` | false |
-| ./README.md | `656e73652d46697265736565642d2d4f45502d2d312e302d626c7565` | false |
-| ./README.md | `686f7265642d2d6f6e2d323032352d2d30352d2d30312d79656c6c6f77` | false |
-| ./README.md | `68747470733a2f2f696d672e736869656c64732e696f2f62616467652f616e63` | false |
-| ./README.md | `68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963` | false |
-| ./README.md | `68747470733a2f2f696d672e736869656c64732e696f2f62616467652f736967` | false |
-| ./README.md | `68747470733a2f2f696d672e736869656c64732e696f2f62616467652f766572` | false |
-| ./README.md | `6e656425323062792d46796f726967696e2d6461726b677265656e` | false |
-| ./README.md | `70d80e991d815f307b5aa79dc57752a8644a0da2c7d2b68455ad70d981745699` | false |
-| ./README.md | `73696f6e2d76302e312d6f72616e6765` | false |
-| ./README.md | `744ef5ace0ade3e49b2e6eb617b7d85a9386abc9341e18694b9106fb88d301de` | false |
-| ./README.md | `9aaea860c50961711e83a98f4cbf1aaf8e587054dddd2e60050b0d6076660ec2` | false |
-| ./README.md | `cf03d4b` | false |
+| File | Real Hash | Declared In File | Matches Manifest |
+|------|-----------|------------------|-------------------|
+| ./PROVENANCE.md | `266cc15a9182405ab0f4baead6a16950674046e3db27a7de402ce4c5e8c90d7d` | false | true |
+| ./LICENSE.md | `8d0571c22a78dc697be38b303e11ec750856b7f529a3f44da1c63956500aca55` | false | true |
+| ./docs/LICENSE.md | `dc8f3e1df1606a8767dd4755ad134cd423cfd5421bb8c4db423a76f4e7aa7d89` | false | true |
+| ./docs/MANIFEST.md | `eb39700c35579ea1c63b7bd0abe09984964afbb8be92b78e4c56f4eacdf96187` | false | true |
+| ./docs/assets/structure-map.png | `01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b` | false | true |
+| ./docs/assets/F2DB40F4-BF6F-4843-8F9C-242BCA424DAB.png | `16b7dfa8879f471e7f38f86462bccad77da45ce49ffbf9c2896c769e8225727e` | false | true |
+| ./docs/PROTOCOL-ANCHOR.md | `c061cba782f5113761ac8e9e6724da7c2ff4b1fbdebd7e7040e31e49ac056eb2` | false | true |
+| ./docs/LEGACY-PRESERVATION.md | `8ef1de74b42ca8b50f5e2214b5abbb445df4342b8ef646b1a586e1641cea6cc5` | false | true |
+| ./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md | `3e0e051cb6894d9e9f36e3493a073130cd94e1e4dc254c684364764df07a4071` | false | true |
+| ./docs/licenses/STRUCTURE-ORIGIN-NOTICE.md | `d62806bbe54e7c00f872eb92b61b3cf376cf342ba47b06f1959d9bd9231518d2` | false | true |
+| ./docs/licenses/STRUCTURE-ORIGIN-NOTICE | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` | false | true |
+| ./docs/meta/STRUCTURAL-TIMELINE-v1.1.md | `289f2ea5f324270597867e3dcab5cfd7db558bff657979d4625132d027d18d8b` | false | true |
+| ./docs/meta/STRUCTURE-VERIFICATION.md | `1e84f1091d7339aa66c929be48b4b129462716bf2f3fff987d8a1a9b886c1ae1` | false | true |
+| ./docs/meta/STRUCTURE-SUMMARY.md | `7381220570d81aae325be8470226c265192283ef1e4149d4066613563488b336` | false | true |
+| ./docs/meta/STRUCTURE-SNAPSHOT.md | `a161c66743afa7fb9047a1df8b9e8923f5d2ad12420c835f94a3a2bf1806b613` | false | true |
+| ./docs/meta/STRUCTURE-SNAPSHOT-v1.1.md | `30f10c41b79e6d9c20a4203f185d437dacba4585b2f6305d37bb55970b3ab60a` | false | true |
+| ./docs/meta/STRUCTURAL-TIMELINE.md | `11c64b19fb9a484ddc00018d3dae32beceb988b852adb81fb4696cda89dd52da` | false | true |
+| ./docs/meta/PROTOCOL-CUSTODIANS.md | `f5b7db247b1eb0d97674adde3f33f300c04f2ac18f696c65a512957f3176a20a` | false | true |
+| ./docs/meta/STRUCTURE-GENESIS-GUIDE.md | `34e2b66978fb6f5f6bc544f827b2008d047bffcd2cd7c1b3a454fb4213544395` | false | true |
+| ./docs/meta/TERMINOLOGY-SWITCH-NOTICE.md | `e21f69c2f47c226b16063f548ea1aea92fa97b013f7b5675db32f9869ea152ab` | false | true |
+| ./docs/meta/SOVEREIGN-ASSERTION.md | `ccf1e8952cfdff7274ac44de31826faaa3dcca4d07cd33acf1eb0dfbed05a249` | false | true |
+| ./docs/meta/FY-IP-NOTICE.md | `0136c9d13485c297868089034d5afd1703ecd67cd12ea615e031682136312add` | false | true |
+| ./docs/index.md | `4f72dafbfc1b6454dbb69ddeebc19db555cc49552c87356b5909b555ca077174` | false | true |
+| ./docs/8873D52E-13DC-423F-8E75-1590368F38F9.png | `d6a21ad44fd5bb0f3bfd07ac1d473f746fe780a257e81fed1ffa8627f7dc5c90` | false | true |
+| ./docs/nodes/SEED-XXXX.md | `2b49e36e3eadeb8f68c29b876f8a8b3ce2c0455ef26167ccbc6a0b4f1ac4f8b4` | false | true |
+| ./docs/nodes/SEED-0000.md | `43eb275ec0c9bb421520fad01257408cf122368f62c10b0b9ce820f6c864eb4a` | false | true |
+| ./docs/nodes/SEED-00001.md | `13da11ab2d56543926fd129f6d2ae6eb8958d5e7bd6d6c894ed39be7c49cf8cf` | false | true |
+| ./docs/STRUCTURE-GUIDE.md | `2404ccb1cd7ced8712338b69beddc315a43af653a7791f4a1ad74683f8a57e27` | false | true |
+| ./docs/README.md | `961d4235a2c9b62a49add68b7fc8fb709de4f913e0d4965191e36d21b6c89c75` | false | true |
+| ./README.md | `424a0ce631689404a28b35274f814e78f8dd83ac2969673b6893b7a0babe5872` | false | true |
