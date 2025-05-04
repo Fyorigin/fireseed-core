@@ -13,14 +13,16 @@ jobs:
       - name: Install jq
         run: sudo apt-get install -y jq
 
-      - name: Validate embedded hashes
+      - name: Validate embedded hashes (enhanced matching)
         run: |
           echo "{" > hash_validation_report.json
           echo "| File | Embedded | Actual | Match |" > hash_validation_report.md
           echo "|------|----------|--------|-------|" >> hash_validation_report.md
           first=1
           for file in $(find . -type f             ! -path "./.git/*"             ! -path "./.github/*"             ! -name "hash_manifest.json"             ! -name "hash_validation_report.json"             ! -name "hash_validation_report.md"); do
-              embedded_hash=$(grep -Eo 'Commit hash: [a-f0-9]+' "$file" | awk '{print $3}')
+
+              embedded_hash=$(grep -Eo '(Commit hash|Signature Hash|Structure-ID):[^\n]+' "$file" |                 grep -Eo '[a-f0-9]{7,64}' | head -n 1)
+
               if [ ! -z "$embedded_hash" ]; then
                 actual_hash=$(sha256sum "$file" | awk '{print $1}')
                 manifest_hash=$(jq -r --arg f "$file" '.[$f].sha256' hash_manifest.json)
@@ -47,6 +49,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes in validation reports"
           else
-            git commit -m "Update hash validation reports (json + markdown)"
+            git commit -m "Update hash validation reports (enhanced)"
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
           fi
