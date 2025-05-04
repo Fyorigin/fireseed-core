@@ -1,0 +1,54 @@
+name: Full Text Hash Scanner
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate-all-hash-like-strings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Scan all files for hash-like strings and compare with manifest
+        run: |
+          echo "{" > hash_validation_report.json
+          echo "| File | Detected Hash | In Manifest |" > hash_validation_report.md
+          echo "|------|----------------|-------------|" >> hash_validation_report.md
+          first=1
+          for file in $(find . -type f             ! -path "./.git/*"             ! -path "./.github/*"             ! -name "hash_manifest.json"             ! -name "hash_validation_report.json"             ! -name "hash_validation_report.md"); do
+
+              # extract all hash-like strings: 7-64 lowercase hex characters
+              hashes=$(grep -Eo '[a-f0-9]{7,64}' "$file" | sort -u)
+
+              for h in $hashes; do
+                match=false
+                manifest_match=$(jq -r 'to_entries[] | select(.value.sha256 | startswith("'$h'")) | .value.sha256' hash_manifest.json)
+                if [[ ! -z "$manifest_match" ]]; then
+                  match=true
+                fi
+                if [ $first -eq 0 ]; then echo "," >> hash_validation_report.json; fi
+                echo "  "${file}-$h": {"hash": "${h}", "in_manifest": ${match}}" >> hash_validation_report.json
+                echo "| ${file} | \`${h}\` | ${match} |" >> hash_validation_report.md
+                first=0
+              done
+          done
+          echo "" >> hash_validation_report.json
+          echo "}" >> hash_validation_report.json
+
+      - name: Commit and push comprehensive hash report
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add hash_validation_report.json hash_validation_report.md
+          if git diff --cached --quiet; then
+            echo "No new hash validation results."
+          else
+            git commit -m "Comprehensive hash scan and comparison"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          fi
