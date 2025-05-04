@@ -19,10 +19,22 @@ This system is governed by the [Fireseed-OEP-1.0](./LICENSE.md) protocol, and in
 
 本系统遵循 [Fireseed-OEP-1.0](./LICENSE.md) 协议执行，并在适用文件中集成结构性签署声明以增强锚定强度。
 
+
 # Fireseed Core · Root Repository
 
 **Fireseed is not a tool.  
 It is a structure for cognition—before language, and beyond it.**
+
+
+![Integrity Verified](https://img.shields.io/badge/integrity-verified-brightgreen)
+
+> **All files in this repository are structurally anchored.**  
+> They are automatically hashed (SHA-256), timestamped (UTC), and logged in `hash_manifest.json` via GitHub Actions.
+
+> **本仓库内所有文件均为结构性锚定文档。**  
+> 每次变更将自动生成 SHA-256 哈希与 UTC 时间戳，统一登记于 `hash_manifest.json` 文件。
+
+→ [View Structural Integrity Policy / 查看完整机制说明](./STRUCTURE-INTEGRITY.md)
 
 ---
 ### Structural Integrity Policy / 结构完整性机制说明
