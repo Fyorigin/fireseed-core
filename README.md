@@ -47,7 +47,7 @@ They are trusted not by signature, but by structural inclusion.
 
 → [View STRUCTURE-INTEGRITY.md → 查看完整机制说明](./STRUCTURE-INTEGRITY.md)
 
-## 🔥 Structural Map · 结构图谱总览
+## Structural Map · 结构图谱总览
 
 <p align="center">
   <img src="./docs/assets/F2DB40F4-BF6F-4843-8F9C-242BCA424DAB.png" width="720"/>
