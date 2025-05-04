@@ -1,0 +1,4 @@
+{
+  ./docs/PROTOCOL-ANCHOR.md: {embedded: cf03d4b, actual: c061cba782f5113761ac8e9e6724da7c2ff4b1fbdebd7e7040e31e49ac056eb2, match: true}
+
+}
