@@ -39,31 +39,29 @@ jobs:
           echo "|------|--------|----------|----------|" >> hash_diff_report.md
 
           first=1
-          while read -r file; do
-            [ "$file" = "./hash_manifest.json" ] && continue
-            [ "$file" = "./hash_manifest_prev.json" ] && continue
+          find . -type f \
+            ! -path "./.git/*" \
+            ! -path "./.github/*" \
+            ! -name "hash_manifest.json" \
+            ! -name "hash_manifest_prev.json" | while read file; do
 
             hash=$(sha256sum "$file" | awk '{print $1}')
             ext="${file##*.}"
             embed=false
 
-            # Try to extract old record if available
-            old_line=$(jq -r --arg f "$file" '.[$f]' hash_manifest_prev.json)
-            old_hash=$(echo "$old_line" | jq -r '.sha256 // empty')
-            old_time=$(echo "$old_line" | jq -r '.timestamp // empty')
-            old_embed=$(echo "$old_line" | jq -r '.embedded // false')
+            old_record=$(jq -r --arg f "$file" '.[$f]' hash_manifest_prev.json)
+            old_hash=$(echo "$old_record" | jq -r '.sha256 // empty')
+            old_time=$(echo "$old_record" | jq -r '.timestamp // empty')
+            old_embed=$(echo "$old_record" | jq -r '.embedded // false')
 
-            if [ "$hash" = "$old_hash" ]; then
-              # Same content, reuse old timestamp and embedded flag
+            if [ "$hash" = "$old_hash" ] && [ "$old_time" != "" ]; then
               timestamp=$old_time
               embed=$old_embed
               status="Unchanged"
             else
-              # Content changed or new file
               timestamp=$NOW
               status="Modified"
 
-              # Try to embed hash if supported type
               case "$ext" in
                 md|txt|yml|yaml|html|xml)
                   if ! grep -q "$hash" "$file"; then
@@ -77,20 +75,15 @@ jobs:
                   fi
                   embed=true
                   ;;
-                *)
-                  embed=false
-                  ;;
               esac
 
               echo "| $file | $status | $old_hash | $hash |" >> hash_diff_report.md
             fi
 
-            # Write to manifest
             if [ $first -eq 0 ]; then echo "," >> hash_manifest.json; fi
             echo "  \"$file\": {\"sha256\": \"$hash\", \"timestamp\": \"$timestamp\", \"embedded\": $embed, \"uploader\": \"$UPLOADER\"}" >> hash_manifest.json
             first=0
-
-          done < <(find . -type f ! -path "./.git/*" ! -path "./.github/*" ! -name "hash_manifest.json")
+          done
 
           echo "" >> hash_manifest.json
           echo "}" >> hash_manifest.json
@@ -103,7 +96,7 @@ jobs:
           git config user.email "structure-bot@users.noreply.github.com"
           git fetch origin
           git reset --hard origin/main
-          git add hash_manifest.json hash_diff_report.md
+          git add hash_manifest.json hash_diff_report.md || true
           git add *.md *.txt *.yml *.yaml *.html *.xml || true
           if git diff --cached --quiet; then
             echo "No changes to commit"
