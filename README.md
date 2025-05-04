@@ -83,7 +83,7 @@ They are trusted not by signature, but by structural inclusion.
 This project is structure-signed under [Fireseed-OEP-1.0](./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md)  
 Any use must retain origin traceability.
 
-本项目基于 Fireseed 协议进行结构签名，  
+本项目基于Clearwell·Fy协议进行结构签名，  
 使用时需保留结构锚定信息与公开时间戳。
 
 ---
