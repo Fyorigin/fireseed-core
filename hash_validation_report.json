@@ -1,12 +1,108 @@
 {
-  ./LICENSE.md: {embedded: cf03d4b, actual: 8d0571c22a78dc697be38b303e11ec750856b7f529a3f44da1c63956500aca55, match: true}
+  ./LICENSE.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
 ,
-  ./docs/LICENSE.md: {embedded: cf03d4b, actual: dc8f3e1df1606a8767dd4755ad134cd423cfd5421bb8c4db423a76f4e7aa7d89, match: true}
+  ./docs/LICENSE.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
 ,
-  ./docs/PROTOCOL-ANCHOR.md: {embedded: cf03d4b, actual: c061cba782f5113761ac8e9e6724da7c2ff4b1fbdebd7e7040e31e49ac056eb2, match: true}
+  ./docs/MANIFEST.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
 ,
-  ./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md: {embedded: cf03d4b, actual: 3e0e051cb6894d9e9f36e3493a073130cd94e1e4dc254c684364764df07a4071, match: true}
+  ./docs/PROTOCOL-ANCHOR.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
 ,
-  ./docs/meta/TERMINOLOGY-SWITCH-NOTICE.md: {embedded: cd91f4b8, actual: e21f69c2f47c226b16063f548ea1aea92fa97b013f7b5675db32f9869ea152ab, match: true}
+  ./docs/LEGACY-PRESERVATION.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md-ce8552bff53e70b2e51a513ad8a37cf33f0e05ad56705c8edde842e727d29b7c: {hash: ce8552bff53e70b2e51a513ad8a37cf33f0e05ad56705c8edde842e727d29b7c, in_manifest: false}
+,
+  ./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/licenses/STRUCTURE-ORIGIN-NOTICE.md-00406ca04acf0303c4f4d6ee2cb113afbbae202f226f3fbab50b338a56183492: {hash: 00406ca04acf0303c4f4d6ee2cb113afbbae202f226f3fbab50b338a56183492, in_manifest: false}
+,
+  ./docs/licenses/STRUCTURE-ORIGIN-NOTICE.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/meta/STRUCTURAL-TIMELINE-v1.1.md-f48117bfaff336dbbd3eecc3cf697a469e22ca20baedc3065c3831a67bd45275: {hash: f48117bfaff336dbbd3eecc3cf697a469e22ca20baedc3065c3831a67bd45275, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-VERIFICATION.md-48b357e12d0e7d3b1e75d9fa45c118e9e1e2d6019c8e67cbfe22f1459b106113: {hash: 48b357e12d0e7d3b1e75d9fa45c118e9e1e2d6019c8e67cbfe22f1459b106113, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-VERIFICATION.md-49f3d0fb7ddd1a483207ccd7cfa5580c90b08739eeefe4c6e3e8e4b172628b5c: {hash: 49f3d0fb7ddd1a483207ccd7cfa5580c90b08739eeefe4c6e3e8e4b172628b5c, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-VERIFICATION.md-4f6466fc3c153b3a35f8ee92e9332931c3f7d01916ceaf7b79b812383f88cfcf: {hash: 4f6466fc3c153b3a35f8ee92e9332931c3f7d01916ceaf7b79b812383f88cfcf, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-VERIFICATION.md-88288b1ed20e8570a4b1c8f4dc50370e4a5cf3db01071a62d02704bb91a2a75c: {hash: 88288b1ed20e8570a4b1c8f4dc50370e4a5cf3db01071a62d02704bb91a2a75c, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-VERIFICATION.md-8d4d83f4810e02862d4cb20c769f893f47e5ef9e30809e1102ec7e3d9dcf87e9: {hash: 8d4d83f4810e02862d4cb20c769f893f47e5ef9e30809e1102ec7e3d9dcf87e9, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-VERIFICATION.md-9e9a47f60ea04ebdcb25f92eaf4572aeaf75b0410734b369299d0ee6044f3d4c: {hash: 9e9a47f60ea04ebdcb25f92eaf4572aeaf75b0410734b369299d0ee6044f3d4c, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-VERIFICATION.md-e7dd58cc3e55fffc66fd97c2225c6fdbbc55e9791e4ecde2ae84aa54dd934038: {hash: e7dd58cc3e55fffc66fd97c2225c6fdbbc55e9791e4ecde2ae84aa54dd934038, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-VERIFICATION.md-f27b63c24a9a3ed92917e0d44b43b5a927e3b119e9e83139873e61b2d5c35469: {hash: f27b63c24a9a3ed92917e0d44b43b5a927e3b119e9e83139873e61b2d5c35469, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-VERIFICATION.md-f3b65f4d110edce3c362040fd9439f70e1ae216bf6a6e84a6895d5c257b0672e: {hash: f3b65f4d110edce3c362040fd9439f70e1ae216bf6a6e84a6895d5c257b0672e, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-VERIFICATION.md-f88ea7a796f98a70c77a83618c16dffbfc9c38cf8b4656a4409db8b7b69e7c10: {hash: f88ea7a796f98a70c77a83618c16dffbfc9c38cf8b4656a4409db8b7b69e7c10, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-SUMMARY.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-SNAPSHOT.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-SNAPSHOT-v1.1.md-215bb1a80e415da3dea6f576c234422547d0a69787cfd02aed9b491292dbbd63: {hash: 215bb1a80e415da3dea6f576c234422547d0a69787cfd02aed9b491292dbbd63, in_manifest: false}
+,
+  ./docs/meta/STRUCTURE-SNAPSHOT-v1.1.md-289f2ea5f324270597867e3dcab5cfd7db558bff657979d4625132d027d18d8b: {hash: 289f2ea5f324270597867e3dcab5cfd7db558bff657979d4625132d027d18d8b, in_manifest: true}
+,
+  ./docs/meta/STRUCTURAL-TIMELINE.md-cd91f4b8: {hash: cd91f4b8, in_manifest: false}
+,
+  ./docs/meta/STRUCTURAL-TIMELINE.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/meta/STRUCTURAL-TIMELINE.md-f88ea7a7: {hash: f88ea7a7, in_manifest: false}
+,
+  ./docs/meta/PROTOCOL-CUSTODIANS.md-49f3d0fb7ddd1a483207ccd7cfa5580c90b08739eeefe4c6e3e8e4b172628b5c: {hash: 49f3d0fb7ddd1a483207ccd7cfa5580c90b08739eeefe4c6e3e8e4b172628b5c, in_manifest: false}
+,
+  ./docs/meta/PROTOCOL-CUSTODIANS.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/meta/TERMINOLOGY-SWITCH-NOTICE.md-cd91f4b8: {hash: cd91f4b8, in_manifest: false}
+,
+  ./docs/meta/SOVEREIGN-ASSERTION.md-aa904c9186a7f8195ac82256cebb96901b42efe707c11de19db3d5d4211e4448: {hash: aa904c9186a7f8195ac82256cebb96901b42efe707c11de19db3d5d4211e4448, in_manifest: false}
+,
+  ./docs/meta/SOVEREIGN-ASSERTION.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/meta/FY-IP-NOTICE.md-50bfabbccedcecf382d32b17027401fb4f007b150e0e3543fae558df77b1f8c8: {hash: 50bfabbccedcecf382d32b17027401fb4f007b150e0e3543fae558df77b1f8c8, in_manifest: false}
+,
+  ./docs/meta/FY-IP-NOTICE.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/nodes/SEED-0000.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/nodes/SEED-0000.md-d39e1533a2d81a22400de1716aea92670c83fb0cf2b2a669f35e9a932851dfd2: {hash: d39e1533a2d81a22400de1716aea92670c83fb0cf2b2a669f35e9a932851dfd2, in_manifest: false}
+,
+  ./docs/nodes/SEED-00001.md-c7e2bcda1ccfd110002581b891b6dc28727eb3f12eaf66466463c1ac93f1eb96: {hash: c7e2bcda1ccfd110002581b891b6dc28727eb3f12eaf66466463c1ac93f1eb96, in_manifest: false}
+,
+  ./docs/nodes/SEED-00001.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/STRUCTURE-GUIDE.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./docs/README.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
+,
+  ./README.md-1f0b18c134a91dbd145195cb9424b6f2a0aed8f3689f6e4b9632b04dcfb2fe79: {hash: 1f0b18c134a91dbd145195cb9424b6f2a0aed8f3689f6e4b9632b04dcfb2fe79, in_manifest: false}
+,
+  ./README.md-656e73652d46697265736565642d2d4f45502d2d312e302d626c7565: {hash: 656e73652d46697265736565642d2d4f45502d2d312e302d626c7565, in_manifest: false}
+,
+  ./README.md-686f7265642d2d6f6e2d323032352d2d30352d2d30312d79656c6c6f77: {hash: 686f7265642d2d6f6e2d323032352d2d30352d2d30312d79656c6c6f77, in_manifest: false}
+,
+  ./README.md-68747470733a2f2f696d672e736869656c64732e696f2f62616467652f616e63: {hash: 68747470733a2f2f696d672e736869656c64732e696f2f62616467652f616e63, in_manifest: false}
+,
+  ./README.md-68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963: {hash: 68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963, in_manifest: false}
+,
+  ./README.md-68747470733a2f2f696d672e736869656c64732e696f2f62616467652f736967: {hash: 68747470733a2f2f696d672e736869656c64732e696f2f62616467652f736967, in_manifest: false}
+,
+  ./README.md-68747470733a2f2f696d672e736869656c64732e696f2f62616467652f766572: {hash: 68747470733a2f2f696d672e736869656c64732e696f2f62616467652f766572, in_manifest: false}
+,
+  ./README.md-6e656425323062792d46796f726967696e2d6461726b677265656e: {hash: 6e656425323062792d46796f726967696e2d6461726b677265656e, in_manifest: false}
+,
+  ./README.md-70d80e991d815f307b5aa79dc57752a8644a0da2c7d2b68455ad70d981745699: {hash: 70d80e991d815f307b5aa79dc57752a8644a0da2c7d2b68455ad70d981745699, in_manifest: false}
+,
+  ./README.md-73696f6e2d76302e312d6f72616e6765: {hash: 73696f6e2d76302e312d6f72616e6765, in_manifest: false}
+,
+  ./README.md-744ef5ace0ade3e49b2e6eb617b7d85a9386abc9341e18694b9106fb88d301de: {hash: 744ef5ace0ade3e49b2e6eb617b7d85a9386abc9341e18694b9106fb88d301de, in_manifest: false}
+,
+  ./README.md-9aaea860c50961711e83a98f4cbf1aaf8e587054dddd2e60050b0d6076660ec2: {hash: 9aaea860c50961711e83a98f4cbf1aaf8e587054dddd2e60050b0d6076660ec2, in_manifest: false}
+,
+  ./README.md-cf03d4b: {hash: cf03d4b, in_manifest: false}
 
 }
