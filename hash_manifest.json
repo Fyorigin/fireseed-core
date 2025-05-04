@@ -1,84 +1,84 @@
 {
-  "./PROVENANCE.md": {"sha256": "b8d26caadf93faf1d10423f9fa38a7c8068153cbe1d8bc4d9591a61c09f16872", "timestamp": "2025-05-04T17:08:48Z"}
+  "./PROVENANCE.md": {"sha256": "b8d26caadf93faf1d10423f9fa38a7c8068153cbe1d8bc4d9591a61c09f16872", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./LICENSE.md": {"sha256": "1485af430122c7a891677a955b7462c114420c882ce7bdc5167ab6fe55af65b0", "timestamp": "2025-05-04T17:08:48Z"}
+  "./LICENSE.md": {"sha256": "1485af430122c7a891677a955b7462c114420c882ce7bdc5167ab6fe55af65b0", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./hash_validation_report.md": {"sha256": "9192097b7f3e526e8c6dc50d4b53dd125e4f69102c6de42607d6ae1b10fea0b3", "timestamp": "2025-05-04T17:08:48Z"}
+  "./hash_validation_report.md": {"sha256": "9192097b7f3e526e8c6dc50d4b53dd125e4f69102c6de42607d6ae1b10fea0b3", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/LICENSE.md": {"sha256": "7af538035aa2298dd09fb07ecbc80daa81301da4d753038914ee3e4c8141d089", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/LICENSE.md": {"sha256": "7af538035aa2298dd09fb07ecbc80daa81301da4d753038914ee3e4c8141d089", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/MANIFEST.md": {"sha256": "dfbc150ef4833d95a343a6f11b0a752c0443a8ab26f1be352fb4d04ecc3c3c22", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/MANIFEST.md": {"sha256": "dfbc150ef4833d95a343a6f11b0a752c0443a8ab26f1be352fb4d04ecc3c3c22", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/assets/structure-map.png": {"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/assets/structure-map.png": {"sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/assets/F2DB40F4-BF6F-4843-8F9C-242BCA424DAB.png": {"sha256": "16b7dfa8879f471e7f38f86462bccad77da45ce49ffbf9c2896c769e8225727e", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/assets/F2DB40F4-BF6F-4843-8F9C-242BCA424DAB.png": {"sha256": "16b7dfa8879f471e7f38f86462bccad77da45ce49ffbf9c2896c769e8225727e", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/PROTOCOL-ANCHOR.md": {"sha256": "156c4f7c144f72db9a6b32901787ae38878841a6ec65180e45543407e0546b69", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/PROTOCOL-ANCHOR.md": {"sha256": "156c4f7c144f72db9a6b32901787ae38878841a6ec65180e45543407e0546b69", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/LEGACY-PRESERVATION.md": {"sha256": "964c8d209f5065567e0c702db653086c3a3cbe761841e8c2e021fb73dc46c7e3", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/LEGACY-PRESERVATION.md": {"sha256": "964c8d209f5065567e0c702db653086c3a3cbe761841e8c2e021fb73dc46c7e3", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md": {"sha256": "2550d2f313f124614c95bb4ef70c1f4d6fe42aaea8b4e82de78c93df299b417d", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md": {"sha256": "2550d2f313f124614c95bb4ef70c1f4d6fe42aaea8b4e82de78c93df299b417d", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/licenses/STRUCTURE-ORIGIN-NOTICE.md": {"sha256": "45560bcf9d3a35854c591170b5e3a63151452cf7ab05f24de1e592d3194dd567", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/licenses/STRUCTURE-ORIGIN-NOTICE.md": {"sha256": "45560bcf9d3a35854c591170b5e3a63151452cf7ab05f24de1e592d3194dd567", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/licenses/STRUCTURE-ORIGIN-NOTICE": {"sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/licenses/STRUCTURE-ORIGIN-NOTICE": {"sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/STRUCTURAL-TIMELINE-v1.1.md": {"sha256": "29def7849d6acfca2b22af971104611259add5e7fa3432b97560716318385006", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/STRUCTURAL-TIMELINE-v1.1.md": {"sha256": "29def7849d6acfca2b22af971104611259add5e7fa3432b97560716318385006", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/STRUCTURE-VERIFICATION.md": {"sha256": "9a15685c0c3be3706015cdb9effd235e760becab6ef6babda8bf33feffd12144", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/STRUCTURE-VERIFICATION.md": {"sha256": "9a15685c0c3be3706015cdb9effd235e760becab6ef6babda8bf33feffd12144", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/STRUCTURE-SUMMARY.md": {"sha256": "2f0df2291709e003002f6f366eeb42611be0880e8d77897e7b2e3a4be6ae1423", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/STRUCTURE-SUMMARY.md": {"sha256": "2f0df2291709e003002f6f366eeb42611be0880e8d77897e7b2e3a4be6ae1423", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/STRUCTURE-SNAPSHOT.md": {"sha256": "e09eb23d5889f83ad9b51616116c6647b18d82c76fc30d591871bf731e3fef96", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/STRUCTURE-SNAPSHOT.md": {"sha256": "e09eb23d5889f83ad9b51616116c6647b18d82c76fc30d591871bf731e3fef96", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/STRUCTURE-SNAPSHOT-v1.1.md": {"sha256": "7093b8bdefc16f1e5074b9ecc1ee2be52a67f82b7c8e712b424c8d39b3cdcb77", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/STRUCTURE-SNAPSHOT-v1.1.md": {"sha256": "7093b8bdefc16f1e5074b9ecc1ee2be52a67f82b7c8e712b424c8d39b3cdcb77", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/STRUCTURAL-TIMELINE.md": {"sha256": "d03e80129dfcf113bef71e3d635fcf87fd0d00c5a59c1a416391b3933c2af047", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/STRUCTURAL-TIMELINE.md": {"sha256": "d03e80129dfcf113bef71e3d635fcf87fd0d00c5a59c1a416391b3933c2af047", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/PROTOCOL-CUSTODIANS.md": {"sha256": "638e4d85b00f48796229fa1663f340c03e5d311fb4288fe23ec02dec83ef3cfd", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/PROTOCOL-CUSTODIANS.md": {"sha256": "638e4d85b00f48796229fa1663f340c03e5d311fb4288fe23ec02dec83ef3cfd", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/STRUCTURE-GENESIS-GUIDE.md": {"sha256": "bf88dbd2430b637fde4862ca54c13e090212b7a0623d12c7d5398a49e041c2da", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/STRUCTURE-GENESIS-GUIDE.md": {"sha256": "bf88dbd2430b637fde4862ca54c13e090212b7a0623d12c7d5398a49e041c2da", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/TERMINOLOGY-SWITCH-NOTICE.md": {"sha256": "8f27753e2d4955e50a20254187fe2b53457b60bea7e727fc05960393ab38c88d", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/TERMINOLOGY-SWITCH-NOTICE.md": {"sha256": "8f27753e2d4955e50a20254187fe2b53457b60bea7e727fc05960393ab38c88d", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/SOVEREIGN-ASSERTION.md": {"sha256": "fc0ff896d3a53a8a18dcb85c9cbb3152c2ca09c9cadb5b0b66de5594769d959e", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/SOVEREIGN-ASSERTION.md": {"sha256": "fc0ff896d3a53a8a18dcb85c9cbb3152c2ca09c9cadb5b0b66de5594769d959e", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/meta/FY-IP-NOTICE.md": {"sha256": "95bf21b160f0d0140a777d9e27435560e3c78a1f828617cfcad7df6dcac04da8", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/meta/FY-IP-NOTICE.md": {"sha256": "95bf21b160f0d0140a777d9e27435560e3c78a1f828617cfcad7df6dcac04da8", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/index.md": {"sha256": "f244b91078c2eaa8e15425af3c743a9ce0b763e1b158e6fb83b9f5401a2403cd", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/index.md": {"sha256": "f244b91078c2eaa8e15425af3c743a9ce0b763e1b158e6fb83b9f5401a2403cd", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/8873D52E-13DC-423F-8E75-1590368F38F9.png": {"sha256": "d6a21ad44fd5bb0f3bfd07ac1d473f746fe780a257e81fed1ffa8627f7dc5c90", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/8873D52E-13DC-423F-8E75-1590368F38F9.png": {"sha256": "d6a21ad44fd5bb0f3bfd07ac1d473f746fe780a257e81fed1ffa8627f7dc5c90", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/nodes/SEED-XXXX.md": {"sha256": "34e45068141fb50152515643449909fee5e96374a505a9753704d538d5f18f0f", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/nodes/SEED-XXXX.md": {"sha256": "34e45068141fb50152515643449909fee5e96374a505a9753704d538d5f18f0f", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/nodes/SEED-0000.md": {"sha256": "a8abbfd3d2b3b8127d807bafe5124bbcc50c5bfdb78e3fe0f0335fa36b41d260", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/nodes/SEED-0000.md": {"sha256": "a8abbfd3d2b3b8127d807bafe5124bbcc50c5bfdb78e3fe0f0335fa36b41d260", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/nodes/SEED-00001.md": {"sha256": "13695164f78d09c5f7cd0f7575c74f6a8daa1200964b89bc6756528b186aa40b", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/nodes/SEED-00001.md": {"sha256": "13695164f78d09c5f7cd0f7575c74f6a8daa1200964b89bc6756528b186aa40b", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/STRUCTURE-GUIDE.md": {"sha256": "ef2981e94b715b89851ca8865a98877b945dbc5294daa16f5ccf20e68d55789d", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/STRUCTURE-GUIDE.md": {"sha256": "ef2981e94b715b89851ca8865a98877b945dbc5294daa16f5ccf20e68d55789d", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./docs/README.md": {"sha256": "f543e2c99cfde678df765e7455705a158cf7f33e3cf2dae4fe5e6aa0ce7fb59f", "timestamp": "2025-05-04T17:08:48Z"}
+  "./docs/README.md": {"sha256": "f543e2c99cfde678df765e7455705a158cf7f33e3cf2dae4fe5e6aa0ce7fb59f", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./hash_diff_report.md": {"sha256": "d9b50d9914b47f3ca6d57340ab28db4c3cf44b50842a44d70d228464c8c8ccd8", "timestamp": "2025-05-04T17:08:48Z"}
+  "./hash_diff_report.md": {"sha256": "d9b50d9914b47f3ca6d57340ab28db4c3cf44b50842a44d70d228464c8c8ccd8", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./STRUCTURE-INTEGRITY.md": {"sha256": "c77804718312ead1b9bb4a909d26fc19c37d89fbdab7014bc83f050dd1009efa", "timestamp": "2025-05-04T17:08:48Z"}
+  "./STRUCTURE-INTEGRITY.md": {"sha256": "c77804718312ead1b9bb4a909d26fc19c37d89fbdab7014bc83f050dd1009efa", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./hash_validation_report.json": {"sha256": "950a71df4345abd2d43eec2652286aa6edb0b38fadb24c79466fd20d6cf50601", "timestamp": "2025-05-04T17:08:48Z"}
+  "./hash_validation_report.json": {"sha256": "950a71df4345abd2d43eec2652286aa6edb0b38fadb24c79466fd20d6cf50601", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./hash_log/hash_manifest_2025-05-04.json": {"sha256": "63c63e7f064bbced34abb4a6dc8c683785727dc7d735e145a804898447dc8c4f", "timestamp": "2025-05-04T17:08:48Z"}
+  "./hash_log/hash_manifest_2025-05-04.json": {"sha256": "63c63e7f064bbced34abb4a6dc8c683785727dc7d735e145a804898447dc8c4f", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./hash_log/hash_diff_report_2025-05-04.md": {"sha256": "32c809aedaa31a8c1a312b1f4c9c5cedbab8867476ae38aa3ac2db7450d9da79", "timestamp": "2025-05-04T17:08:48Z"}
+  "./hash_log/hash_diff_report_2025-05-04.md": {"sha256": "32c809aedaa31a8c1a312b1f4c9c5cedbab8867476ae38aa3ac2db7450d9da79", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./hash_log/hash_manifest_prev.json": {"sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356", "timestamp": "2025-05-04T17:08:48Z"}
+  "./hash_log/hash_manifest_prev.json": {"sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./hash_log/hash_manifest_latest.json": {"sha256": "63c63e7f064bbced34abb4a6dc8c683785727dc7d735e145a804898447dc8c4f", "timestamp": "2025-05-04T17:08:48Z"}
+  "./hash_log/hash_manifest_latest.json": {"sha256": "63c63e7f064bbced34abb4a6dc8c683785727dc7d735e145a804898447dc8c4f", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./hash_log/hash_manifest_new.json": {"sha256": "63c63e7f064bbced34abb4a6dc8c683785727dc7d735e145a804898447dc8c4f", "timestamp": "2025-05-04T17:08:48Z"}
+  "./hash_log/hash_manifest_new.json": {"sha256": "63c63e7f064bbced34abb4a6dc8c683785727dc7d735e145a804898447dc8c4f", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./snapshots/hash_manifest-20250504T142147.json": {"sha256": "c5bc001a5fa89c5cc937de654050bc6c6cf56a103414d5a07b3ae39b6e24dcfd", "timestamp": "2025-05-04T17:08:48Z"}
+  "./snapshots/hash_manifest-20250504T142147.json": {"sha256": "c5bc001a5fa89c5cc937de654050bc6c6cf56a103414d5a07b3ae39b6e24dcfd", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./snapshots/hash_manifest-20250504T141920.json": {"sha256": "c5bc001a5fa89c5cc937de654050bc6c6cf56a103414d5a07b3ae39b6e24dcfd", "timestamp": "2025-05-04T17:08:48Z"}
+  "./snapshots/hash_manifest-20250504T141920.json": {"sha256": "c5bc001a5fa89c5cc937de654050bc6c6cf56a103414d5a07b3ae39b6e24dcfd", "timestamp": "2025-05-04T17:09:15Z"}
 ,
-  "./README.md": {"sha256": "d99c312e38e0a5eb9eb93541f22286c5704f43010a9a08ce3decc57cc46896a1", "timestamp": "2025-05-04T17:08:48Z"}
+  "./README.md": {"sha256": "d99c312e38e0a5eb9eb93541f22286c5704f43010a9a08ce3decc57cc46896a1", "timestamp": "2025-05-04T17:09:15Z"}
 
 }
