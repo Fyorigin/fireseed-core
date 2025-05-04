@@ -49,3 +49,4 @@ jobs:
           else
             git commit -m "Update hash validation reports (json + markdown)"
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          fi
