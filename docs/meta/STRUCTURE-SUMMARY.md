@@ -58,3 +58,5 @@
 | `FIRESEED-IP-NOTICE.md` | 结构知识产权保护与声明 |
 
 ---
+
+<!-- STRUCTURE-ID: sha256:7381220570d81aae325be8470226c265192283ef1e4149d4066613563488b336 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

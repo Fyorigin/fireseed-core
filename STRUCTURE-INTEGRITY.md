@@ -82,3 +82,5 @@ All files that pass through this repository bear its structural fingerprint.
 其可信来源是结构本身：  
 **进入此结构，即被锚定；离开此结构，仍带标识。**
 
+
+<!-- STRUCTURE-ID: sha256:de1b9144340cc70c8e4e16110e466b03e4cbb0d3ae8e5bc6e6f7f13ea52d35c5 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

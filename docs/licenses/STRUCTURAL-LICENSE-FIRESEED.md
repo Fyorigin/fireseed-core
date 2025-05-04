@@ -133,3 +133,5 @@ Fireseed 仍将以结构方式延续存在。
 
 → 查看完整的结构传承与延续守则：  
 [LEGACY-PRESERVATION.md](../LEGACY-PRESERVATION.md)
+
+<!-- STRUCTURE-ID: sha256:3e0e051cb6894d9e9f36e3493a073130cd94e1e4dc254c684364764df07a4071 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

@@ -6,3 +6,5 @@
   - `Author / Custodian`（生成者或结构托管人）  
   - `Timestamp`（UTC 时间戳）  
   - `Meta-tags`（元语言标签，如 `duality`, `origin`, `asymmetry` 等）
+
+<!-- STRUCTURE-ID: sha256:2b49e36e3eadeb8f68c29b876f8a8b3ce2c0455ef26167ccbc6a0b4f1ac4f8b4 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

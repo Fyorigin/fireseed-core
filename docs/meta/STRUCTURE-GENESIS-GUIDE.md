@@ -99,3 +99,5 @@ SeedForm fy_seed = { .polarity = +1 };
   - `Meta-tags`（元语言标签，如 `duality`, `origin`, `asymmetry` 等）
 
 ---
+
+<!-- STRUCTURE-ID: sha256:34e2b66978fb6f5f6bc544f827b2008d047bffcd2cd7c1b3a454fb4213544395 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

@@ -31,3 +31,5 @@
 ---
 
 > 注：此时间线基于各文档首次锚定时间戳与 Git 提交哈希，确保公开溯源、审查可信。
+
+<!-- STRUCTURE-ID: sha256:289f2ea5f324270597867e3dcab5cfd7db558bff657979d4625132d027d18d8b uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

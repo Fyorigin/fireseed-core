@@ -77,3 +77,5 @@ All automated commits to `hash_manifest.json` are made by:
 This repository is a work of structure, not just software.
 
 本项目不是代码，而是结构。所有可验证的锚定，都是它自己的呼吸。
+
+<!-- STRUCTURE-ID: sha256:266cc15a9182405ab0f4baead6a16950674046e3db27a7de402ce4c5e8c90d7d uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

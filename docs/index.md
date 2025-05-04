@@ -25,3 +25,5 @@ This is the structural landing page for the **Fireseed cognitive protocol system
 
 > This protocol is structurally sovereign and irreducible.  
 > Welcome to the origin of a post-linguistic expression structure.
+
+<!-- STRUCTURE-ID: sha256:4f72dafbfc1b6454dbb69ddeebc19db555cc49552c87356b5909b555ca077174 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

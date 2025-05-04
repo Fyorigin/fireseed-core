@@ -24,3 +24,5 @@
 ---
 
 > 注：本快照为结构锚定安全保障清单，确保各文档自证、防篡、可追溯。
+
+<!-- STRUCTURE-ID: sha256:30f10c41b79e6d9c20a4203f185d437dacba4585b2f6305d37bb55970b3ab60a uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

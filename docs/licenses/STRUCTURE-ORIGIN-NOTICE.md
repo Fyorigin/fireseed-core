@@ -85,3 +85,4 @@ for structure preservation beyond its origin.
 
 本结构协议包含一项起源之外的延续保障机制：  
 → [LEGACY-PRESERVATION.md](../LEGACY-PRESERVATION.md)
+<!-- STRUCTURE-ID: sha256:d62806bbe54e7c00f872eb92b61b3cf376cf342ba47b06f1959d9bd9231518d2 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

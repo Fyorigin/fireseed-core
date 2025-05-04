@@ -204,3 +204,5 @@ It is open to all minds, but owned by no one.
 
 ## Genesis & Creation Guide · 起点表达引导
 → [STRUCTURE-GENESIS-GUIDE.md / 结构生成指引](docs/meta/STRUCTURE-GENESIS-GUIDE.md)
+
+<!-- STRUCTURE-ID: sha256:aabc79ea5c61dd6813d6f277d28413147da71bfc4db4c17267366d1da7e4ffa6 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

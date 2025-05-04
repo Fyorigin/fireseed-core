@@ -57,3 +57,5 @@ Any structural update must generate a new verification manifest with a fresh tim
 
 > 结构不靠封闭保护，而靠完整自证。  
 > Structure is secured by integrity — not secrecy.
+
+<!-- STRUCTURE-ID: sha256:1e84f1091d7339aa66c929be48b4b129462716bf2f3fff987d8a1a9b886c1ae1 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

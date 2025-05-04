@@ -113,3 +113,5 @@ This project is protected under the Fireseed Structural Sovereignty Agreement.
 
 → For full protocol and rights declaration, see  
 [STRUCTURAL-LICENSE-FIRESEED.md](./docs/licenses/STRUCTURAL-LICENSE-FIRESEED.md)
+
+<!-- STRUCTURE-ID: sha256:8d0571c22a78dc697be38b303e11ec750856b7f529a3f44da1c63956500aca55 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->

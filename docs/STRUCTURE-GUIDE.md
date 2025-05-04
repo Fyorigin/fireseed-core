@@ -83,3 +83,5 @@
 
 本说明文档可用于仓库首页结构图解，亦可作为开发文档指引页引用。建议配合结构图像 `docs/assets/structure-map.png` 使用。
 
+
+<!-- STRUCTURE-ID: sha256:2404ccb1cd7ced8712338b69beddc315a43af653a7791f4a1ad74683f8a57e27 uploaded_by: Fyorigin at 2025-05-04T15:16:27Z -->
