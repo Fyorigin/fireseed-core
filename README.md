@@ -22,7 +22,7 @@ This system is governed by the [Fireseed-OEP-1.0](./LICENSE.md) protocol, and in
 
 # ClearwellFy Core · Root Repository
 
-**Fireseed is not a tool.  
+**ClearwellFy is not a tool.  
 It is a structure for cognition—before language, and beyond it.**
 
 
@@ -54,7 +54,7 @@ They are trusted not by signature, but by structural inclusion.
 </p>
 
 <p align="center">
-  <b>Figure: Fireseed Structural Overview · 火种结构总览图</b>
+  <b>Figure: ClearwellFy Structural Overview · 清泉Fy结构总览图</b>
 </p>
 
 ---
