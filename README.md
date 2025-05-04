@@ -194,6 +194,19 @@ It is open to all minds, but owned by no one.
 → [STRUCTURE-VERIFICATION.md / 哈希校验快照](docs/meta/STRUCTURE-VERIFICATION.md)  
 → [FY-IP-NOTICE.md / 结构知识产权声明](docs/meta/FY-IP-NOTICE.md)
 
+---
+
+### Structural Freeze / 结构冻结声明
+
+To preserve the structural integrity of this project,  
+the repository has entered a signed freeze state  
+as of version v1.1 onward.
+
+为保障本仓库结构锚定体系的完整性，  
+本项目自 v1.1 起已进入结构签名冻结阶段。
+
+→ [STRUCTURE-FREEZE-NOTICE.md / 结构冻结声明](docs/meta/STRUCTURE-FREEZE-NOTICE.md)
+
 ## Meta Governance · 策略声明与命名规则
 → [SOVEREIGN-ASSERTION.md / 结构主权声明](docs/meta/SOVEREIGN-ASSERTION.md)  
 → [TERMINOLOGY-SWITCH-NOTICE.md / 术语替换声明](docs/meta/TERMINOLOGY-SWITCH-NOTICE.md)
